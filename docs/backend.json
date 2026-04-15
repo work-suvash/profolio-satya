@@ -1,0 +1,90 @@
+{
+  "entities": {
+    "Project": {
+      "title": "Project",
+      "description": "Represents a single project in the portfolio.",
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique identifier for the project."
+        },
+        "title": {
+          "type": "string",
+          "description": "The title of the project."
+        },
+        "description": {
+          "type": "string",
+          "description": "A brief description of the project."
+        },
+        "category": {
+          "type": "string",
+          "description": "The category of the project.",
+          "enum": ["Web Development", "App Development", "Newly Added"]
+        },
+        "type": {
+          "type": "string",
+          "description": "The type of media for the project.",
+          "enum": ["image", "video"]
+        },
+        "thumbnail": {
+          "type": "string",
+          "description": "URL for the project's thumbnail image."
+        },
+        "src": {
+          "type": "string",
+          "description": "URL for the project's full-size image or video."
+        },
+        "views": {
+          "type": "number",
+          "description": "Number of views the project has."
+        },
+        "likes": {
+          "type": "number",
+          "description": "Number of likes the project has."
+        },
+        "dateAdded": {
+          "type": "string",
+          "format": "date-time",
+          "description": "The date the project was added."
+        },
+        "comments": {
+          "type": "array",
+          "description": "A list of comments on the project.",
+          "items": {
+            "$ref": "#/entities/ProjectComment"
+          }
+        }
+      },
+      "required": ["id", "title", "category", "type", "thumbnail", "src", "dateAdded"]
+    },
+    "ProjectComment": {
+      "title": "Project Comment",
+      "description": "A comment on a project.",
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "author": {
+          "type": "string"
+        },
+        "text": {
+          "type": "string"
+        },
+        "timestamp": {
+          "type": "string",
+          "format": "date-time"
+        }
+      },
+      "required": ["id", "author", "text", "timestamp"]
+    }
+  },
+  "auth": {
+    "providers": []
+  },
+  "firestore": {},
+  "storage": {
+    "rules": "allow read, write: if request.auth != null;"
+  }
+}

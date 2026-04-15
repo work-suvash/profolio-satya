@@ -1,0 +1,52 @@
+{
+  "placeholderImages": [
+    {
+      "id": "hero-profile",
+      "description": "A placeholder portrait image.",
+      "imageUrl": "/profile.png",
+      "imageHint": "portrait person"
+    },
+    {
+      "id": "about-me-image",
+      "description": "A placeholder portrait image.",
+      "imageUrl": "/profile.png",
+      "imageHint": "portrait person"
+    },
+    {
+      "id": "project-1-thumb",
+      "description": "Thumbnail for a web development project.",
+      "imageUrl": "https://images.unsplash.com/photo-1559028012-481c04fa702d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHx3ZWJzaXRlJTIwZGVzaWdufGVufDB8fHx8MTc2NjQxNjI2NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "website design"
+    },
+    {
+      "id": "project-2-thumb",
+      "description": "Thumbnail for a web development project.",
+      "imageUrl": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3ZWIlMjBhbmFseXRpY3N8ZW58MHx8fHwxNzY2NDc0MzEyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "web analytics"
+    },
+    {
+      "id": "project-3-thumb",
+      "description": "Thumbnail for an app development project.",
+      "imageUrl": "https://images.unsplash.com/photo-1523206489230-c012c64b2b48?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtb2JpbGUlMjBhcHB8ZW58MHx8fHwxNzY2NDMyOTMzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mobile app"
+    },
+    {
+      "id": "project-4-thumb",
+      "description": "Thumbnail for an app development project.",
+      "imageUrl": "https://images.unsplash.com/photo-1602064172250-43f8909056c7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx1c2VyJTIwaW50ZXJmYWNlfGVufDB8fHx8MTc2NjQyMzU0N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "user interface"
+    },
+    {
+      "id": "project-5-thumb",
+      "description": "Thumbnail for a newly added project.",
+      "imageUrl": "https://images.unsplash.com/photo-1610466896927-699424f3c86d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxhYnN0cmFjdCUyMGNvZGV8ZW58MHx8fHwxNzY2NDA2NTU3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "abstract code"
+    },
+    {
+      "id": "project-6-thumb",
+      "description": "Thumbnail for a web development project.",
+      "imageUrl": "https://images.unsplash.com/photo-1759661966728-4a02e3c6ed91?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxkYXNoYm9hcmQlMjBjaGFydHxlbnwwfHx8fDE3NjY0NzQzMTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dashboard chart"
+    }
+  ]
+}
